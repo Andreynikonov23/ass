@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.TableController">
+   <children>
+      <TableView fx:id="table_view" layoutX="31.0" layoutY="40.0" prefHeight="368.0" prefWidth="764.0" AnchorPane.bottomAnchor="88.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="40.0">
+        <columns>
+          <TableColumn fx:id="column_id" prefWidth="75.0" text="№" />
+          <TableColumn fx:id="column_name" prefWidth="226.0" text="Наименование" />
+            <TableColumn fx:id="column_cost" prefWidth="99.0" text="Стоимость" />
+            <TableColumn fx:id="column_category" prefWidth="161.0" text="Тип продукта" />
+            <TableColumn fx:id="column_adress" minWidth="0.0" prefWidth="202.0" text="Склад" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
